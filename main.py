@@ -6,7 +6,7 @@ import requests
 st.set_page_config(layout="wide")
 st.title("Mapeamento CNES | Pernambuco")
 
-tab1, tab2, tab3 = st.tabs(['Leitos', 'Estabelecimento', 'Funcionarios'])
+tab1, tab2, tab3 = st.tabs(['Leitos', 'Estabelecimento'])
 
 with tab1:
     dict_df = pd.read_csv("./data/dict_df.csv")
